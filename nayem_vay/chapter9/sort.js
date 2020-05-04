@@ -54,4 +54,29 @@
 
 // // ******** End of sorting function **********
 
-var arr = [4, 8, 1, 6, 7, 9, 4, 3, 5, 6, 8, 2, 1, 7]
+
+// // ******** Every function **********
+// var arr = [4, 8, 1, 6, 7, 9, 4, 3, 5, 6, 8, 2, 1, 7]
+
+// var res1 = arr.every(function(value) {
+//     return value % 2 == 0 // every value is even? true / false
+// })
+// console.log(res1)
+
+// var res2 = arr.every(function(value) {
+//     return value >= 0 // every value is positive? true/false
+// })
+// console.log(res2)
+
+// // ******** Some function **********
+// var arr = [4, 8, 1, -2, 6, 7, 9, 4, 3, 5, 6, 8, 2, 1, 7]
+
+// var res1 = arr.some(function(value) {
+//     return value % 2 == 1
+// })
+// console.log(res1)
+
+// var res2 = arr.some(function(value) {
+//     return value < 0
+// })
+// console.log(res2)
